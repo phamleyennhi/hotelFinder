@@ -2,7 +2,7 @@
 #include <iostream>
 #include <list>
 
-//**************************
+//****************************
 MapCity::MapCity(int capacity)
 {
 	buckets = new std::list<HashHotel>[capacity];
@@ -10,7 +10,7 @@ MapCity::MapCity(int capacity)
 	this->size = 0;
 }
 
-//**************************
+//****************************
 MapCity::~MapCity(){
 	delete[] this->buckets;
 }
